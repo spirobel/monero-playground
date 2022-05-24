@@ -1,0 +1,2 @@
+#!/bin/sh
+./monero-wallet-rpc --rpc-bind-port 18082  --daemon-address http://stagenet.community.rino.io:38081	--stagenet  --wallet-dir . --disable-rpc-login --log-level 4 --non-interactive 
