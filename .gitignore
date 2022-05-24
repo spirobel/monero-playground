@@ -2,3 +2,4 @@
 monero-wallet-rpc.log
 emptywallet
 emptywallet.keys
+start_wallet_rpc_with_wallet_file
