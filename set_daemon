@@ -1,0 +1,10 @@
+#!/bin/sh
+IP=127.0.0.1
+PORT=18082
+METHOD="set_daemon"
+PARAMS="{\"address\":\"node.sethforprivacy.com:18089\"}"
+curl \
+    -u username:password --digest \
+    http://$IP:$PORT/json_rpc \
+    -d '{"jsonrpc":"2.0","id":"0","method":"'$METHOD'","params":'"$PARAMS"'}' \
+    -H 'Content-Type: application/json'
