@@ -1,0 +1,5 @@
+#!/bin/bash
+tar xvf monero-linux-*.tar.bz2
+rm monero-linux-*.tar.bz2
+cp monero-x86_64-linux-gnu-*/monero-wallet-rpc ../monero-wallet-rpc
+chmod +x ../monero-wallet-rpc
