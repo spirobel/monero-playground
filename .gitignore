@@ -1,2 +1,4 @@
 /monero-binaries/monero-x86_64-linux-gnu-*
 monero-wallet-rpc.log
+emptywallet
+emptywallet.keys
