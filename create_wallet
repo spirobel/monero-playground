@@ -1,0 +1,10 @@
+#!/bin/sh
+IP=127.0.0.1
+PORT=18082
+METHOD="create_wallet"
+PARAMS="{\"filename\":\"emptywallet\",\"language\":\"English\"}"
+curl \
+    -u username:password --digest \
+    http://$IP:$PORT/json_rpc \
+    -d '{"jsonrpc":"2.0","id":"0","method":"'$METHOD'","params":'"$PARAMS"'}' \
+    -H 'Content-Type: application/json'
