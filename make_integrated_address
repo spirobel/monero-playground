@@ -1,0 +1,10 @@
+#!/bin/sh
+IP=127.0.0.1
+PORT=18082
+METHOD="make_integrated_address"
+PARAMS="{\"standard_address\":\"55Py9fSwyEeQX1CydtFfPk96uHEFxSxvD9AYBy7dwnYt9cXqKDjix9rS9AWZ5GnH4B1Z7yHr3B2UH2updNw5ZNJEEnv87H1\"}"
+curl \
+    -u username:password --digest \
+    http://$IP:$PORT/json_rpc \
+    -d '{"jsonrpc":"2.0","id":"0","method":"'$METHOD'","params":'"$PARAMS"'}' \
+    -H 'Content-Type: application/json'
