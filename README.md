@@ -39,6 +39,7 @@ if you go in with the assumption that this is an asynchronous program, you are m
 
 ## credits
  [seth for privacy monero download and install script](https://sethforprivacy.com/guides/run-a-monero-node-advanced/#download-and-install-monerod)
+ [the monero rpc](https://github.com/monero-project/monero/blob/8349cfe4a63cfc63d50ce3818886b67a05e240a4/src/wallet/wallet_rpc_server.cpp)
 
  prs welcome for more scripts like this. Also open issues for quirks and small work arounds you found.
 
