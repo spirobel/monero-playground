@@ -3,3 +3,5 @@ monero-wallet-rpc.log
 emptywallet
 emptywallet.keys
 emptywallet.address.txt
+.localnet
+monero-wallet-cli.log

@@ -1,8 +1,31 @@
 # monero-playground
 this is a collection of bash scripts to play with the monero [wallet-rpc](https://www.getmonero.org/resources/developer-guides/wallet-rpc.html)
 
+there are also some scripts to start a local testnet for development of monero related software. (similar to what can be found in the [haveno makefile](https://github.com/haveno-dex/haveno/blob/490180884428d11b206c0bced412799c64ad3d1a/Makefile#L59))
 
+## run a local testnet for development
 
+run this in one terminal to start one daemon: 
+
+```
+./local1
+```
+
+then in another terminal do this to start a second daemon:
+
+```
+./local2
+```
+use this command to create a wallet for testing:
+
+```
+./monero-wallet-cli --testnet --generate-new-wallet ExampleLocalTestnetWallet
+```
+afterwards run this command in one of the 2 terminals where the daemon is running:
+```
+start_mining 9yCf2JpFA4kUiPeJEr27A1KnLVg786v2NeYDzN8HYyntRRPysRA23vwaKg3uSNV9XFikVML3KczSvMQFBLkdz3doJvVmur5 1
+```
+replace 9yCf2JpFA4kUiPeJEr27A1KnLVg786v2NeYDzN8HYyntRRPysRA23vwaKg3uSNV9XFikVML3KczSvMQFBLkdz3doJvVmur5 with the wallet that you just created.  
 ## getting started with the wallet-rpc
 
 run this in one terminal to start the wallet with daemon: 
