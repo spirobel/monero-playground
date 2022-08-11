@@ -1,7 +1,9 @@
 # monero-playground
 this is a collection of bash scripts to play with the monero [wallet-rpc](https://www.getmonero.org/resources/developer-guides/wallet-rpc.html)
 
-## getting started
+
+
+## getting started with the wallet-rpc
 
 run this in one terminal to start the wallet with daemon: 
 
@@ -45,3 +47,15 @@ if you go in with the assumption that this is an asynchronous program, you are m
 
  prs welcome for more scripts like this. Also open issues for quirks and small work arounds you found.
 
+## update to the latest version of monero
+(this is just a note to myself to update this repo. You can ignore this.)
+
+run these commands to download the latest version of monero and
+ copy the monero-wallet-rpc, monerod (daemon) and monero-wallet-cli
+
+```
+cd monero-binaries
+./download_monero_binaries.sh
+./move_binaries.sh
+
+```
