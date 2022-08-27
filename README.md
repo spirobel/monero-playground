@@ -20,6 +20,7 @@ use this command to create a wallet for testing:
 
 ```
 ./monero-wallet-cli --testnet --generate-new-wallet ExampleLocalTestnetWallet
+./monero-wallet-cli --testnet --wallet-file ExampleLocalTestnetWallet # <--- this is how you can reopen the wallet later on.
 ```
 afterwards run this command in one of the 2 terminals where the daemon is running:
 ```
