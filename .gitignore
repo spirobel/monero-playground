@@ -3,6 +3,7 @@ monero-wallet-rpc.log
 emptywallet
 emptywallet.keys
 emptywallet.address.txt
+ExampleLocalTestnetWallet*
 .localnet
 monero-wallet-cli.log
 monero-wallet-cli
