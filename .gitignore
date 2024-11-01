@@ -5,3 +5,6 @@ emptywallet.keys
 emptywallet.address.txt
 .localnet
 monero-wallet-cli.log
+monero-wallet-cli
+monero-wallet-rpc
+monerod
