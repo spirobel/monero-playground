@@ -90,8 +90,6 @@ prs welcome for more scripts like this. Also open issues for quirks and small wo
 
 ## update to the latest version of monero
 
-(this is just a note to myself to update this repo. You can ignore this.)
-
 run these commands to download the latest version of monero and
 copy the monero-wallet-rpc, monerod (daemon) and monero-wallet-cli
 
