@@ -1,0 +1,12 @@
+#!/bin/sh
+
+IP=127.0.0.1
+PORT=48081
+METHOD="get_block"
+PARAMS="{\"height\":1}"
+
+curl \
+    -u username:password --digest \
+    http://$IP:$PORT/json_rpc \
+    -d '{"jsonrpc":"2.0","id":"0","method":"'$METHOD'","params":'"$PARAMS"'}' \
+    -H 'Content-Type: application/json'
