@@ -4,7 +4,7 @@
     "": {
       "name": "typescript-wallet-api",
       "dependencies": {
-        "@spirobel/monero-wallet-api": "^0.1.2",
+        "@spirobel/monero-wallet-api": "^0.2.0",
       },
       "devDependencies": {
         "@types/bun": "latest",
@@ -15,7 +15,7 @@
     },
   },
   "packages": {
-    "@spirobel/monero-wallet-api": ["@spirobel/monero-wallet-api@0.1.2", "", { "dependencies": { "zod": "^3.24.1" }, "peerDependencies": { "typescript": "^5.0.0" } }, "sha512-rwMbR6O3qk21ujYm4695vMAz7bo/kn0iwEhaa59ToJMXjT8Nh0gmDWuukPw655Ja48pCwJBNoE7dZJEDDrmAyg=="],
+    "@spirobel/monero-wallet-api": ["@spirobel/monero-wallet-api@0.2.0", "", { "dependencies": { "zod": "^3.24.1" }, "peerDependencies": { "typescript": "^5.0.0" } }, "sha512-M1ogQIbZK4RS05YLDZXRf46SY0CmJNBkcf0sIIWnimik6Lvn+eaNuievF8eLJvgFZKUVrMNLW6NiJNRHnKuahw=="],
 
     "@types/bun": ["@types/bun@1.2.4", "", { "dependencies": { "bun-types": "1.2.4" } }, "sha512-QtuV5OMR8/rdKJs213iwXDpfVvnskPXY/S0ZiFbsTjQZycuqPbMW8Gf/XhLfwE5njW8sxI2WjISURXPlHypMFA=="],
 

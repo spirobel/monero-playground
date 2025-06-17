@@ -9,6 +9,6 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "@spirobel/monero-wallet-api": "^0.1.2"
+    "@spirobel/monero-wallet-api": "^0.2.0"
   }
 }
